@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Beba Thin";
+  src: local("Beba Thin"),
+    url(../../fonts/BebasNeue/BebasNeue-Thin.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Beba Light";
+  src: local("Beba Light"),
+    url(../../fonts/BebasNeue/BebasNeue-Light.ttf) format("truetype");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+.intro-hello {
+  font-size: 50px;
+  font-weight: normal;
+  font-family: "Beba Light";
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.intro-description {
+  font-family: "Open Sans";
+  text-align: right;
+}
+
+.intro-section {
+  margin-top: 100px;
+}
+
+.pic-of-tay {
+  width: 80%;
+  height: 270px;
+}
